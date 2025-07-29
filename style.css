@@ -1,0 +1,165 @@
+body {
+  font-family: sans-serif;
+  margin: 20px;
+  min-height: 100vh;
+  background-image: url(./assets/fundo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-color: #f4f4f4;
+  color: #333;
+}
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.logo img {
+  width: 10rem;
+  margin-bottom: 2rem;
+}
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #fae7fb;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1, h2 {
+  color: #417a8d;
+}
+input[type="text"], button {
+  padding: 10px 15px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  font-size: 1em;
+}
+button {
+  background-color: #88d76e;
+  color: #1b489d;
+  font-size: 35px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+button:hover {
+  background-color: #c82333;
+  color: #f4f4f4;
+}
+#nameList {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  max-height: 200px;
+  overflow-y: auto;
+}
+#nameList li {
+  font-size: 1.3rem;
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#nameList li:last-child {
+  border-bottom: none;
+}
+#nameList li button {
+  background-color: #dc3545;
+  padding: 5px 10px;
+  font-size: 0.8em;
+}
+#nameList li button:hover {
+  background-color: #c82333;
+}
+.results-values {
+  margin-top: 20px;
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  min-height: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #28a745;
+}
+.result-item {
+  background-color: #e9ecef;
+  padding: 8px 15px;
+  border-radius: 5px;
+  color: #333;
+}
+.sorter input {
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+}
+/* Estilos para os inputs de número, se ainda quiser manter */
+.number-inputs {
+  margin-top: 20px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+@media (min-width: 576px) {
+  .container {
+      padding: 30px; /* Aumenta o padding para telas maiores */
+  }
+  h1 {
+      font-size: 2rem;
+  }
+  h2 {
+      font-size: 1.7rem;
+  }
+  input[type="text"],
+  input[type="number"],
+  button {
+      margin-bottom: 15px; /* Mais espaço entre os inputs/botões */
+  }
+  #newNameInput, #totalResultadosInput {
+      width: calc(100% - 120px); /* Deixa espaço para o botão Adicionar/Sortear */
+      display: inline-block; /* Alinha com o botão */
+      margin-right: 10px;
+      vertical-align: middle; /* Alinha verticalmente */
+  }
+  .name-manager button, .sorter button {
+      width: auto; /* Botões ao lado dos inputs */
+      display: inline-block;
+      margin-bottom: 10px;
+  }
+  #nameList {
+      max-height: 200px; /* Altura padrão para telas maiores */
+  }
+  #nameList li {
+      flex-direction: row; /* Volta a alinhar nome e botão na mesma linha */
+      align-items: center;
+      gap: 10px;
+  }
+  #nameList li button {
+      margin-bottom: 0;
+      width: auto;
+  }
+  .results-values {
+      font-size: 1.5rem; /* Tamanho de fonte maior para resultados */
+  }
+  .result-item {
+      flex-grow: 0; /* Não cresce desnecessariamente */
+      min-width: auto; /* Remove largura mínima */
+  }
+}
+
+/* Para telas maiores que 768px (desktops) */
+@media (min-width: 768px) {
+  .container {
+      max-width: 800px; /* Aumenta a largura máxima */
+  }
+}

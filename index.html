@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sorteador de Nomes</title>
+</head>
+<body>
+    <div class="logo">
+        <img src="./assets/Logo Mistura.png" alt="Logo Mistura fashion">
+    </div>
+    <div class="container">
+        <h1>Sorteador Mistura Fashion</h1>
+
+        <div class="name-manager">
+            <h2>Gerenciar Nomes</h2>
+            <input type="text" id="newNameInput" placeholder="Digite um nome">
+            <button onclick="addName()">Adicionar Nome</button>
+            <ul id="nameList">
+                </ul>
+        </div>
+
+        <hr>
+
+        <div class="sorter">
+            <h2>Configurações do Sorteio</h2>
+            <p>Quantos nomes você quer sortear?</p>
+            <input type="number" id="totalResultadosInput" value="1" min="1">
+            <button onclick="sortearNomes()">Sortear Nomes!</button>
+        </div>
+
+        <hr>
+
+        <div class="results">
+            <h2>Resultados do Sorteio</h2>
+            <div class="results-values" id="sortedNamesDisplay">
+                </div>
+        </div>
+    </div>
+
+</body>
+<script src="./script.js"></script>
+</html>
