@@ -24,7 +24,7 @@ Você pode visualizar a aplicação rodando em:
 
 1.  **Clone o Repositório:**
     ```bash
-    git clone [https://github.com/flaviocalaca/Sorteado-personalizado.git](https://github.com/flaviocalaca/Sorteado-personalizado.git)
+    git clone https://github.com/flaviocalaca/Sorteado-personalizado.git
     ```
 2.  **Abra o `index.html`:**
     Basta abrir o arquivo `index.html` em qualquer navegador (Chrome, Firefox, Edge, etc.) diretamente do seu computador.
