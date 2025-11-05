@@ -48,7 +48,7 @@ Contribuições são bem-vindas! Se você tiver sugestões, melhorias ou correç
 
 * Demonstração (GitHub Pages): [https://flaviocalaca.github.io/Sorteado-personalizado](https://flaviocalaca.github.io/Sorteado-personalizado)
 * GitHub: [https://github.com/flaviocalaca](https://github.com/flaviocalaca)
-* LinkedIn: [https://www.linkedin.com/in/joseflaviocalaça/ca](https://www.linkedin.com/in/joseflaviocalaça/ca)
+* LinkedIn: [https://www.linkedin.com/in/joseflaviocalaça/ca](https://www.linkedin.com/in/joseflaviocalaça)
 
 ## 📜 Licença
 
