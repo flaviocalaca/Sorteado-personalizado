@@ -1,6 +1,6 @@
 # 🎲 Sorteador Mistura Fashion
 
-![Prévia do Sorteador Mistura Fashion](assets/sorteador.png)
+![Prévia do Sorteador Mistura Fashion](./assets/Sorteador.png)
 
 Um aplicativo web simples e interativo para sortear nomes de forma aleatória, ideal para rifas, sorteios em redes sociais ou a escolha de vencedores em eventos.
 
